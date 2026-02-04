@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Ruthra Static Website</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">About</h1>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article>
+      <h2>About this project</h2>
+      <p>This repository is a minimal static website template you can use as a starter for simple pages or docs.</p>
+      <ul>
+        <li>Plain HTML + CSS</li>
+        <li>Deployable to GitHub Pages</li>
+        <li>Easily extendable</li>
+      </ul>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-about"></span> Ruthra Static Website</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year-about').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
